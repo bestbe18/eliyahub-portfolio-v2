@@ -5,7 +5,7 @@ div{
     padding: 30px;
 }
 body{ 
-  background: url(http://static2.businessinsider.com/image/524b22b56bb3f72f2652dcef-1200/los-angeles-county-is-home-to-about-10-million-people-making-it-among-the-most-populated-counties-in-the-us.jpg) no-repeat center center fixed; 
+  background: url(http://www.lafamilylawattorney.com/downtown_los_angeles_california_op_580x291.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -59,4 +59,32 @@ SCSS
 
 @media (max-width: 320px) {
 
+}
+@media screen and (max-width:959px){
+#container{
+    width:100%;
+}
+#left-column{
+width:70%;
+}
+#right-column{
+width: 30%;
+}
+img{
+    width:100%;
+    
+}
+}
+@media screen and (max-width: 640px) {
+    #left-column{
+width:70%;
+}
+#right-column{
+width: 30%;
+}
+@media screen and (max-width:320px) {
+    #container{
+        width: 320px;
+     
+    }
 }
